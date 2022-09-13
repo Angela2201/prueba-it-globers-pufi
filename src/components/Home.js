@@ -24,9 +24,6 @@ function Home() {
             <nav className={styles.navbar}>
                 <div>MI CUENTA | MI COMPRA</div>
             </nav>
-            
-
-
         </section>
     );
 }
