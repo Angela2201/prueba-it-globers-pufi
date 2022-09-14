@@ -6,7 +6,7 @@ import { PufiCart } from "./components/PufiCart"
 import { PufiNap } from "./components/PufiNap"
 import { Espufi } from "./components/Espufi"
 import { Footer } from "./components/Footer"
-/* import './App.css'; */
+import './App.css';
 
 function App() {
   return (

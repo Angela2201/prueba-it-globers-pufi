@@ -1,0 +1,52 @@
+.viewHome {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.options {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.options > p {
+    position: inherit;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center > button {
+    margin-top: 200px;
+}
+
+.navbar {
+    flex-shrink: 2;
+    margin-top: 10px;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+    z-index: 1;
+}
+

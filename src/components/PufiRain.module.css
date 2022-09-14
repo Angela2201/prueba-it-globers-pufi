@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    
+}
+
+.imageUmbrella {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imageUmbrella > img {
+    width: 100%;
+    height: 47vh;
+}
+
+/* .imageUmbrella > button {
+    margin-top: 20px;
+} */
+
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px 0 100px;
+}
+
+.description > img {
+    width: 15%;
+    height: 9vh;
+}
