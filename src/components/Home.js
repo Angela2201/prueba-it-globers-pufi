@@ -1,4 +1,5 @@
 import React from "react";
+import { Carousel } from "./Carousel"
 import styles from './Home.module.css';
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     return (
         <React.Fragment>
             <div className={styles.viewHome}>
+                {/* <Carousel /> */}
                 <img className={styles.image} src="https://i.imgur.com/PeRpRaV.jpg" alt="relax"></img>
                 <div className={styles.logo}>
                     <h1>Pufi</h1>
