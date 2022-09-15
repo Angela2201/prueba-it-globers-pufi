@@ -7,8 +7,7 @@ function Home() {
     return (
         <React.Fragment>
             <div className={styles.viewHome}>
-                {/* <Carousel /> */}
-                <img className={styles.image} src="https://i.imgur.com/PeRpRaV.jpg" alt="relax"></img>
+                {/* <img className={styles.image} src="https://i.imgur.com/PeRpRaV.jpg" alt="relax"></img> */}
                 <div className={styles.logo}>
                     <h1>Pufi</h1>
                 </div>
@@ -21,10 +20,6 @@ function Home() {
                 <div className={styles.count}>
                     <div>MI CUENTA ▼ | MI COMPRA</div>
                 </div>      
-            </div>
-            <div className={styles.center}>
-                <h1>ESTÁR CÓMODO, NUNCA FUE TAN FÁCIL.</h1>
-                <button>SHOP</button>
             </div> 
         </React.Fragment>
     );
