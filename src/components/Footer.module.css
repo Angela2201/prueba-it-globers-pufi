@@ -4,6 +4,17 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
+    box-shadow: 0px 0px 6px 1px rgb(16, 16, 16);
+    padding: 30px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .form {
@@ -13,3 +24,56 @@
     align-items: center;
 }
 
+.products a {
+    text-decoration: none;
+    color: black;
+}
+
+.products a > h5 {
+    padding: 10px;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+}
+
+.about a > h5 {
+    padding: 10px;
+}
+
+.buySecurely a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.buySecurely a > img {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.socialNetworks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialNetworks a > img {
+    width: 30px;
+    padding: 5px;
+}
+
+.footer {
+    padding: 5px;
+    color: rgb(142, 136, 136);
+    display: flex;
+    align-items: center;
+}
+
+.footer > img {
+    margin-left: 70%;
+}
