@@ -8,10 +8,9 @@ function PufiPuff() {
                 <img src="https://i.imgur.com/RDOxQ7E.png" alt="onePuff"></img>
                 <h3>Pufi PUFF</h3>
                 <h4>Descripción del producto. Este es un texto simulado</h4>
-                <button> VER MÁS </button>
+                <button> > VER MÁS </button>
             </div>
             <div className={styles.imagePuff}>
-                <img src="https://i.imgur.com/g4I5DhT.png" alt="puff"></img>
                 <button>SHOP</button>
             </div>
         </div>
