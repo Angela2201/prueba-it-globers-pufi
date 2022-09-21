@@ -1,5 +1,6 @@
 import React from "react";
 import { Home } from "./components/Home"
+import { Carousel } from "./components/Carousel";
 import { PufiRain } from "./components/PufiRain"
 import { PufiPuff } from "./components/PufiPuff"
 import { PufiCart } from "./components/PufiCart"
@@ -12,6 +13,7 @@ function App() {
   return (
   <React.Fragment>
     <Home />
+    <Carousel />
     <PufiRain />
     <PufiPuff />
     <PufiCart />

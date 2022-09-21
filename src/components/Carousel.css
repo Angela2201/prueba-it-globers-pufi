@@ -1,0 +1,33 @@
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-control-prev {
+    margin-bottom: 10%;
+}
+
+.carousel-control-next {
+    margin-bottom: 10%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    margin-top: -560px;
+}
+
+.center > button {
+    color: rgb(255, 255, 255);
+    border: white 5px solid;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    margin-top: 200px;
+    margin-bottom: 168px;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}

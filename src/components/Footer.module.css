@@ -74,6 +74,10 @@
     align-items: center;
 }
 
+#footer {
+    padding: 6px;
+}
+
 .footer > img {
     margin-left: 70%;
 }
