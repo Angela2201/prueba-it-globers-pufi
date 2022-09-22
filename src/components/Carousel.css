@@ -1,4 +1,5 @@
 @media (min-width: 390px) and (max-width: 767px) {
+
     .carousel-indicators {
         width: 70%;
     }
@@ -9,7 +10,7 @@
 
     .carousel-inner {
         width: 100%;
-        height: 100vh;
+        height: auto;
     }
 
     .carousel-control-prev {
@@ -35,8 +36,8 @@
         justify-content: center;
         align-items: center;
         z-index: 1;
-        position: relative;
-        margin-top: -749px;
+        position: absolute;
+        margin-top: -39%;
     }
 
     .center > h1 {
@@ -69,7 +70,7 @@
 
     .carousel-inner {
         width: 100%;
-        height: 61vh;
+        height: auto;
     }
 
     .carousel-control-prev {
@@ -82,7 +83,6 @@
 
     .carousel-control-next {
         margin-bottom: -19%;
-        /* right: -46px; */
     }
 
     .carousel-control-next > span {
@@ -96,7 +96,7 @@
         justify-content: center;
         align-items: center;
         z-index: 1;
-        position: relative;
+        position: absolute;
         margin-top: -286px;
     }
 
@@ -147,7 +147,7 @@
         justify-content: center;
         align-items: center;
         z-index: 1;
-        position: relative;
+        position: absolute;
         margin-top: -560px;
     }
 
