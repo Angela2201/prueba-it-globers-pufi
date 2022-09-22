@@ -1,7 +1,6 @@
 @media (min-width: 390px) and (max-width:767px) {
 
     .viewHome {
-        /* height: 100vh; */
         width: 100%;
         object-fit: contain;
         display: grid;
@@ -10,15 +9,7 @@
         position: absolute;
         z-index: 1;
     }
-    
-    /* .image {
-        object-fit: cover;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
-    } */
-    
+
     .logo {
         width: 10%;
         height: 10%;
@@ -36,7 +27,6 @@
         align-items: start;
         justify-items: center;
         padding: 7px;
-        /* margin-bottom: 125px; */
     }
     
     .options a {
@@ -55,31 +45,19 @@
         color: transparent;
     }
     
-    /* .picCaption {
-        position: absolute;
-        text-align: center;
-        z-index: 999;
-        max-height: 100%;
-        overflow: hidden;
-        bottom: 0;
-        top: 0;
-    } */
-    
     .count {
-        /* font-size: 10px; */
         padding: 15px;
         margin-left: 14%;
     }
 
     .count > h6 {
-        /* font-size: 10px; */
         font-size: 7px;
     }  
 }
 
 @media (min-width: 768px) and (max-width:991px) {
+
     .viewHome {
-        /* height: 100vh; */
         width: 100%;
         object-fit: contain;
         display: grid;
@@ -89,19 +67,11 @@
         z-index: 1;
     }
     
-    /* .image {
-        object-fit: cover;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
-    } */
-    
     .logo {
         width: 10%;
         height: 10%;
         font-size: 29px;
-        padding: 20px 20px 20px 20px;
+        padding: 20px;
     }
     
     .options {
@@ -109,23 +79,25 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-items: start;
         justify-items: center;
-        padding: 20px 20px 20px 20px;
+        padding: 14px;
     }
     
     .options a {
         text-decoration: none;
         color: black;
+        padding: 6px;
     }
     
     .options a > img {
-        width: 76%;
+        width: 84%;
     }
     
     .options a > p {
-        margin-top: 5px;
+        margin-top: 10px;
+        font-size: 10px;
     }
     
-    .picCaption {
+/*     .picCaption {
         position: absolute;
         text-align: center;
         z-index: 999;
@@ -133,19 +105,22 @@
         overflow: hidden;
         bottom: 0;
         top: 0;
-    }
+    } */
     
     .count {
-        font-size: 20px;
-        padding: 20px 20px 20px 20px;
-        margin-left: 50%;
-    
+        padding: 20px;
+        margin-left: 25%;
     }
+
+    .count > h6 {
+        font-size: 12px;
+    } 
+
 }
 
 @media (min-width: 992px) {
+    
     .viewHome {
-        /* height: 100vh; */
         width: 100%;
         object-fit: contain;
         display: grid;
@@ -154,15 +129,7 @@
         position: absolute;
         z-index: 1;
     }
-    
-    /* .image {
-        object-fit: cover;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
-    } */
-    
+
     .logo {
         width: 10%;
         height: 10%;
@@ -205,7 +172,6 @@
         font-size: 20px;
         padding: 20px 20px 20px 20px;
         margin-left: 50%;
-    
     }   
 }
 

@@ -32,9 +32,7 @@ function Footer() {
                 </div>
             </section>
             <div className={styles.footer}>
-                <footer id="footer">
-                    <h6>&copy; PUFI Copyright 2017 - Todos los derechos reservados</h6>
-                </footer>
+                <h6>&copy; PUFI Copyright 2017 - Todos los derechos reservados</h6>
                 <img src="https://i.imgur.com/WXKVyBj.png" alt="brand"></img>
             </div>
         </React.Fragment> 

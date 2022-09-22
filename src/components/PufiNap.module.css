@@ -53,66 +53,130 @@
         border: white 2px solid;
         box-shadow: 4px 4px rgba(0,0,0,0.5);
         background-color: transparent;
-        /* padding: 0px; */
         font-size: 6px;
         cursor: pointer;
     }
 
 }
 
+@media (min-width: 768px) and (max-width:991px) {
 
+    .container {
+        display: flex;
+        width: 100%;
+        /* margin-top: 88px; */
+    }
+    
+    .description {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 28vh;
+    }
+    
+    .description > img {
+        width: 26px;
+        height: 4vh;
+        margin-top: 2px;
+        margin-bottom: -15px;
+    }
+    
+    .description > h3, h4 {
+        font-size: 16px;
+        margin-bottom: -14px;
+    }
+    
+    .description > button {
+        margin-top: 40px;
+        border: none;
+        background-color: transparent;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .imageNap {
+        background-image: url("https://i.imgur.com/AwnlvGf.jpg");
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 28vh;
+    }
+    
+    .imageNap > button {
+        color: white;
+        width: 20%;
+        border: white 5px solid;
+        box-shadow: 10px 10px rgba(0,0,0,0.5);
+        background-color: transparent;
+        padding: 8px;
+        font-size: 14px;
+        cursor: pointer;
+    }
 
-
-
-/* .container {
-    display: flex;
 }
 
-.description {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-}
+@media (min-width: 992px) {
+    
+    .container {
+        display: flex;
+    }
+    
+    .description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    
+    .description > img {
+        width: 80px;
+        height: 9vh;
+        margin-bottom: 20px;
+    }
+    
+    .description > h3, h4 {
+        margin-bottom: 20px;
+    }
+    
+    .description > button {
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .imageNap {
+        background-image: url("https://i.imgur.com/AwnlvGf.jpg");
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    
+    .imageNap > button {
+        color: white;
+        width: 25%;
+        border: white 5px solid;
+        box-shadow: 10px 10px rgba(0,0,0,0.5);
+        background-color: transparent;
+        padding: 30px;
+        font-size: 20px;
+        cursor: pointer;
+    }
 
-.description > img {
-    width: 80px;
-    height: 9vh;
-    margin-bottom: 20px;
-}
 
-.description > h3, h4 {
-    margin-bottom: 20px;
-}
 
-.description > button {
-    border: none;
-    background-color: transparent;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.imageNap {
-    background-image: url("https://i.imgur.com/AwnlvGf.jpg");
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
-}
-
-.imageNap > button {
-    color: white;
-    width: 25%;
-    border: white 5px solid;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    background-color: transparent;
-    padding: 30px;
-    font-size: 20px;
-    cursor: pointer;
-} */
+ }
