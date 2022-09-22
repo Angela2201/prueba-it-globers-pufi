@@ -1,11 +1,129 @@
-.container {
+@media (min-width: 390px) and (max-width:767px) {
+
+    .container {
+        width: 100%;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+        box-shadow: 0px 0px 6px 1px rgb(16, 16, 16);
+        padding: 10px;
+    }
+    
+    /* .logo {
+        width: 10%;
+    } */
+    
+    .logo a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .logo a > h1 {
+        font-size: 1.5rem;
+    }
+    
+    /* .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+    .products a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .products a > h6 {
+        padding: 0px 3px 0px 3px;
+        font-size: 8px;
+    }
+    
+    .about a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .about a > h6 {
+        padding: 0px 3px 0px 3px;
+        font-size: 8px;
+    }
+    
+    .buySecurely a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .buySecurely a > h6 {
+        padding: 0px 3px 0px 3px;
+        font-size: 8px;
+    }
+
+    .buySecurely a > img {
+        width: 60%;
+        margin-top: 1px;
+    }
+    
+    .socialNetworks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .socialNetworks > h6 {
+        padding: 0px 3px 0px 3px;
+        font-size:8px;
+    }
+
+    .socialNetworks a > img {
+        width: 22px;
+        padding: 5px;
+    }
+    
+    .footer {
+        padding: 5px;
+        color: rgb(142, 136, 136);
+        display: flex;
+        align-items: center;
+    }
+    
+    #footer {
+        padding: 6px;
+    }
+    
+    .footer > h6 {
+        font-size:8px;
+    }
+
+    .footer > img {
+        margin-left: 16%;
+        width: 14%;
+    }
+
+}
+
+
+/* .container {
+    width: 79%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
     box-shadow: 0px 0px 6px 1px rgb(16, 16, 16);
-    padding: 30px;
+    padding: 10px;
+}
+
+.logo {
+    width: 10%;
 }
 
 .logo {
@@ -80,4 +198,4 @@
 
 .footer > img {
     margin-left: 70%;
-}
+} */

@@ -1,4 +1,69 @@
-.container {
+@media (min-width: 390px) and (max-width:767px) {
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+    
+    .imageBag {
+        background-image: url("https://i.imgur.com/bpKdgAv.jpg");
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 14vh;
+    }
+    
+    .imageBag > button {
+        color: white;
+        width: 25%;
+        border: white 2px solid;
+        box-shadow: 4px 4px rgba(0,0,0,0.5);
+        background-color: transparent;
+        /* padding: 0px; */
+        font-size: 6px;
+        cursor: pointer;
+    }
+    
+    .description {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 14vh;
+    }
+    
+    .description > img {
+        width: 16px;
+        height: 2vh;
+        margin-top: 2px;
+        margin-bottom: -22px;
+    }
+    
+    .description > h3, h4 {
+        font-size: 6px;
+        margin-bottom: -27px;
+    }
+    
+    .description > button {
+        margin-top: 40px;
+        border: none;
+        background-color: transparent;
+        font-size: 6px;
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+/* .container {
     display: flex;
 }
 
@@ -49,4 +114,4 @@
     background-color: transparent;
     font-size: 15px;
     cursor: pointer;
-}
+} */

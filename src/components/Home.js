@@ -7,7 +7,6 @@ function Home() {
     return (
         <React.Fragment>
             <div className={styles.viewHome}>
-                {/* <img className={styles.image} src="https://i.imgur.com/PeRpRaV.jpg" alt="relax"></img> */}
                 <div className={styles.logo}>
                     <h1>Pufi</h1>
                 </div>
@@ -18,7 +17,7 @@ function Home() {
                     <a href="#"><img src="https://i.imgur.com/piVWHTq.png" alt="cushion"></img><p>PUFI NAP</p></a>   
                 </div>
                 <div className={styles.count}>
-                    <div>MI CUENTA ▼ | MI COMPRA</div>
+                    <h6>MI CUENTA ▼ | MI COMPRA</h6>
                 </div>      
             </div> 
         </React.Fragment>
